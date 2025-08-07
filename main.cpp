@@ -1,13 +1,8 @@
 // pre-processor directive iostream library
+
 #include <iostream>
 
-using namespace std;
-// main function begins here
-int main(){
-    // print output hello world function
-    // cout standard output string 
-    // << insertion operator
-    cout << "Hello World\n";
-    // return statement exit code 0 return success
+int main() {
+    std::cout << "Hello World!, VSCode C++ on Ubuntu!" << std::endl;
     return 0;
 }
