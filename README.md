@@ -2,7 +2,7 @@
 
 ## 📘 Description
 
-*Brief description of your project — what it does, who it's for, and why it exists.*
+*This is a brief introduction to C++ and how it is executed and compiled,  the main concepts picked are running a C++ application, writing code in C++ and compiling C++ code.*
 
 ---
 
@@ -11,8 +11,7 @@
 - **C++** (version X.X)
 - **Visual Studio Code**
 - **g++** (GNU Compiler Collection)
-- **Make** (optional, for build automation)
-- **Git**
+- **Git** (Version control)
 
 ---
 
@@ -45,23 +44,17 @@ sudo apt install g++
 💻 Getting Started (Build & Run)
 🧑‍💻 Clone the Repository
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/BrianNgeno/C-Basics.git
+cd C-Basics
 ```
 ⚙️ Compile the Code
 Using g++:
 
 ```bash
-g++ -o main src/main.cpp
+g++ -o main main.cpp
 ./main
 ```
-Or, using a Makefile:
 
-```bash
-make
-./main
-▶️ Run in VSCode
-```
 Open project folder:
 
 ```bash
@@ -70,18 +63,13 @@ Ensure required extensions are installed.
 
 Configure or auto-generate .vscode/tasks.json and launch.json.
 
-Press F5 to compile and run.
 ```
-📝 Usage Example
+## 📝 Usage Example
 ```bash
 $ ./main
-Welcome to Project Name!
-Please choose an option:
-1. Start
-2. Help
-3. Exit
+Hello, VSCode C++ on Ubuntu!
 ```
-🗂️ Code Structure Overview
+## 🗂️ Code Structure Overview
 
 ```plaintext
 ├── main.cpp
@@ -89,47 +77,37 @@ Please choose an option:
     ├── tasks.json
     └── launch.json            # 
 ```
-VSCode configuration files
-⚙️ Configuration Options
-Makefile – Customize build instructions
 
-launch.json – Configure run/debug options
+## 🧯 Troubleshooting
+### Issue	Solution
 
-Environment Variables – Set them in the terminal or within VSCode settings
+- **g++: command not found**	Run sudo apt install g++
+- **VSCode doesn't debug C++**	Check .vscode/launch.json and tasks.json
+- **Cannot run ./main**	Run chmod +x main to make it executable
+- **file not found or include errors**	Check include paths and make sure files are correctly referenced
 
-🧯 Troubleshooting
-Issue	Solution
-g++: command not found	Run sudo apt install g++
-VSCode doesn't debug C++	Check .vscode/launch.json and tasks.json
-Cannot run ./main	Run chmod +x main to make it executable
-file not found or include errors	Check include paths and make sure files are correctly referenced
 
-🤝 Contributing
-Fork the repository
+## 🤝 Contributing
+### Fork the repository
 
 Create your feature branch:
 
-bash
-Copy
-Edit
+```bash
 git checkout -b feature/your-feature
-Commit your changes:
+```
+### Commit your changes:
 
-bash
-Copy
-Edit
-git commit -am 'Add your feature'
-Push to the branch:
-
-bash
-Copy
-Edit
+```bash
+git commit -m 'Add your feature'
+```
+### Push to the branch:
+```bash
 git push origin feature/your-feature
 Open a pull request
-
-📄 License
+```
+## 📄 License
 This project is licensed under the MIT License
-© [Your Name], [Year]
+© Brian Ng'eno, 2025
 
-📫 Contact
-For questions or issues, please reach out via [email@example.com] or open an issue on this repository.
+## 📫 Contact
+For questions or issues, please reach out via [bkn.ngeno@gmail.com] or open an issue on this repository.
