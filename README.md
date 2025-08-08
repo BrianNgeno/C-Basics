@@ -8,7 +8,7 @@
 
 ## 🛠️ Technologies Used
 
-- **C++** (version X.X)
+- **C++**
 - **Visual Studio Code**
 - **g++** (GNU Compiler Collection)
 - **Git** (Version control)
@@ -20,7 +20,7 @@
 - Feature 1 — e.g., Command-line interface  
 - Feature 2 — e.g., Modular code architecture  
 - Feature 3 — e.g., Error handling with logging  
-- More...
+
 
 ---
 
@@ -28,7 +28,7 @@
 
 Make sure your system meets the following prerequisites:
 
-- Ubuntu 20.04+
+- Ubuntu 24.04+
 - g++ installed
 - Visual Studio Code
 - Required VSCode extensions:
